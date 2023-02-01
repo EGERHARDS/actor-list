@@ -1,0 +1,27 @@
+.actor-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .actor-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+
+  .actor-list li:hover {
+    background-color: #313030;
+    color: white
+  }
+
+  .actor-info {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px #ccc;
+    z-index: 1;
+  }
